@@ -22,12 +22,12 @@ export default function About() {
                   <span />
                 </div>
                 <pre className={styles.code}>{`const developer = {
-  name: "김개발",
-  role: "Frontend Dev",
+  name: "Leedius",
+  role: "Backend Dev",
   location: "서울, 대한민국",
   passion: [
-    "Clean Code",
-    "UX/UI",
+    "Clean Architecture",
+    "API Design",
     "Performance",
     "Open Source",
   ],
@@ -42,8 +42,9 @@ export default function About() {
               저에 대해 <span>조금</span> 더
             </h2>
             <p className={styles.desc}>
-              사용자가 불편함을 느끼지 않는 UI를 만드는 것에 큰 보람을 느낍니다.
-              퍼포먼스와 접근성, 그리고 코드 품질을 항상 염두에 두고 개발합니다.
+              서비스가 수만 명의 사용자를 감당할 수 있도록 안정적이고 확장 가능한
+              백엔드 시스템을 설계하는 데 큰 보람을 느낍니다.
+              클린 아키텍처와 도메인 주도 설계를 기반으로 유지보수하기 쉬운 코드를 추구합니다.
             </p>
             <p className={styles.desc}>
               새로운 기술을 배우는 것을 즐기며, 오픈소스 기여와 기술 블로그 작성을

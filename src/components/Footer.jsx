@@ -10,7 +10,7 @@ export default function Footer() {
           <span className={styles.bracket}>/&gt;</span>
         </a>
         <p className={styles.copy}>
-          © {new Date().getFullYear()} 김개발. All rights reserved.
+          © {new Date().getFullYear()} Leedius. All rights reserved.
         </p>
         <a href="#" className={styles.top}>
           ↑ 맨 위로

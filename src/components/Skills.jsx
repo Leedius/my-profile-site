@@ -2,41 +2,41 @@ import styles from './Skills.module.css'
 
 const categories = [
   {
-    title: 'Frontend',
-    icon: '🎨',
-    skills: [
-      { name: 'React', level: 92 },
-      { name: 'TypeScript', level: 88 },
-      { name: 'Next.js', level: 80 },
-      { name: 'CSS / Tailwind', level: 90 },
-    ],
-  },
-  {
     title: 'Backend',
     icon: '⚙️',
     skills: [
-      { name: 'Node.js', level: 75 },
-      { name: 'Express', level: 72 },
-      { name: 'PostgreSQL', level: 65 },
-      { name: 'REST / GraphQL', level: 78 },
+      { name: 'Java', level: 92 },
+      { name: 'Spring Boot', level: 90 },
+      { name: 'Kotlin', level: 72 },
+      { name: 'Python', level: 68 },
     ],
   },
   {
-    title: 'Tooling & DevOps',
+    title: 'Database & Infra',
+    icon: '🗄️',
+    skills: [
+      { name: 'PostgreSQL', level: 88 },
+      { name: 'MySQL', level: 85 },
+      { name: 'Redis', level: 78 },
+      { name: 'MongoDB', level: 65 },
+    ],
+  },
+  {
+    title: 'DevOps & Tooling',
     icon: '🛠️',
     skills: [
-      { name: 'Git / GitHub', level: 90 },
-      { name: 'Docker', level: 60 },
-      { name: 'Vite / Webpack', level: 82 },
-      { name: 'CI/CD', level: 68 },
+      { name: 'Docker / Kubernetes', level: 80 },
+      { name: 'AWS (EC2, RDS, S3)', level: 75 },
+      { name: 'Git / GitHub Actions', level: 92 },
+      { name: 'Linux / Bash', level: 82 },
     ],
   },
 ]
 
 const techBadges = [
-  'React', 'TypeScript', 'Next.js', 'Tailwind CSS',
-  'Node.js', 'GraphQL', 'Vite', 'Git',
-  'Figma', 'Storybook', 'Jest', 'Docker',
+  'Java', 'Spring Boot', 'Kotlin', 'JPA / Hibernate',
+  'PostgreSQL', 'Redis', 'Docker', 'Kubernetes',
+  'AWS', 'REST API', 'gRPC', 'Git',
 ]
 
 export default function Skills() {

@@ -73,13 +73,13 @@ export default function Avatar() {
 
       {/* floating code badges */}
       <div className={`${styles.floatBadge} ${styles.floatBadge1}`}>
-        &lt;React /&gt;
+        Spring Boot
       </div>
       <div className={`${styles.floatBadge} ${styles.floatBadge2}`}>
-        TypeScript
+        Java
       </div>
       <div className={`${styles.floatBadge} ${styles.floatBadge3}`}>
-        Node.js
+        PostgreSQL
       </div>
     </div>
   )

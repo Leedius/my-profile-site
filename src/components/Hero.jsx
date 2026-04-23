@@ -8,15 +8,15 @@ export default function Hero() {
         <div className={styles.text}>
           <p className={styles.greeting}>안녕하세요, 저는</p>
           <h1 className={styles.name}>
-            김개발<span className={styles.dot}>.</span>
+            Leedius<span className={styles.dot}>.</span>
           </h1>
           <h2 className={styles.title}>
-            <span className={styles.typewriter}>Frontend Developer</span>
+            <span className={styles.typewriter}>Backend Developer</span>
           </h2>
           <p className={styles.bio}>
-            사용자 경험을 최우선으로 생각하는 프론트엔드 개발자입니다.
+            안정적이고 확장 가능한 서버 아키텍처를 설계하는 백엔드 개발자입니다.
             <br />
-            React와 TypeScript로 확장 가능하고 아름다운 UI를 만듭니다.
+            Java · Spring Boot · PostgreSQL로 견고한 API와 시스템을 구축합니다.
           </p>
 
           <div className={styles.actions}>
