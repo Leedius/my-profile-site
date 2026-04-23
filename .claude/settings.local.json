@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Bash(claude plugin *)",
+      "Bash(npm create *)",
+      "PowerShell(npm create *)",
+      "PowerShell(Get-Command *)",
+      "PowerShell($env:PATH -split ';' | Where-Object { $_ -match 'node|npm' })",
+      "Bash(npm --version)",
+      "Bash(where node *)",
+      "Bash(where npm *)",
+      "PowerShell(Set-ExecutionPolicy *)"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 28px 0;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.bracket {
+  color: var(--accent);
+}
+
+.copy {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.top {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  transition: color 0.2s;
+}
+
+.top:hover {
+  color: var(--accent);
+}
